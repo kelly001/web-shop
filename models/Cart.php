@@ -22,10 +22,16 @@ class Cart
     public $status;
 
     /**
+     * @var Customer
+     */
+    public $customer;
+
+    /**
      * Cart constructor.
      * @param Product[] $products
+     * @param Customer $customer
      */
-    public function __construct($products)
+    public function __construct($products, $customer)
     {
 
     }
@@ -41,4 +47,6 @@ class Cart
      * @param Product $product
      */
     public function removeProduct($product){}
+
+    public function clear(){}
 }

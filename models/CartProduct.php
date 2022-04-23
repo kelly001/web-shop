@@ -24,7 +24,7 @@ class CartProduct
     /**
      * @var float
      */
-    public $priceForQauntity;
+    public $priceForQuantity;
 
     /**
      * CartProduct constructor.
@@ -33,5 +33,7 @@ class CartProduct
      * @param boolean $price
      */
     public function __construct($product, $price, $quantity){}
+
+    public function changeQuantity($quantity){}
 
 }

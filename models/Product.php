@@ -49,5 +49,5 @@ class Product
         $this->pictures = $arPictures;
     }
 
-    public function buy(){}
+    public function send(){}
 }
