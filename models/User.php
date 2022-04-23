@@ -16,4 +16,6 @@ class User
      */
     public $address;
 
+    public function __construct($name, $address){}
+
 }
